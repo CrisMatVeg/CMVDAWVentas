@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "local.ieslossauces.es",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "CMV-USED",
+            "database": "mysql",
+            "username": "adminsql"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "10.199.8.248",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "DBVentas",
+            "database": "DBVentas",
+            "username": "userDBVentas"
+        }
+    ]
+}
